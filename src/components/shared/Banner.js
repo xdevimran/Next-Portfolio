@@ -18,7 +18,9 @@ export default function Banner() {
           </p>
           <div className="mt-8">
             <button className="mr-4 bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-md">
-              Download CV
+              <a href="https://drive.google.com/uc?id=1gfi2OCXZ-psQ3fDZNx2BjyIQSH0NrXlo&export=download">
+                Download CV
+              </a>
             </button>
             <button className="bg-gray-200 hover:bg-gray-300 text-black p-3 rounded-md">
               <Link href="/contact">Contact Me</Link>

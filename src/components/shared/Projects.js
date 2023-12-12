@@ -25,13 +25,12 @@ export default function Projects() {
     },
     {
       id: 3,
-      title: "Project 3",
+      title: "simple e-commerce website ",
       description: "Description for Project 3.",
-      image:
-        "https://d85wutc1n854v.cloudfront.net/live/products/600x375/WB043HJ53.png?v=1.0",
+      image: "https://i.ibb.co/nP7dMG5/Screenshot-6.png",
       technologies: ["HTML", "CSS", "React"],
-      liveDemoLink: "#",
-      githubLink: "#",
+      liveDemoLink: "https://b8a10-client.netlify.app/",
+      githubLink: "https://github.com/xdevimran/Tectify-E-Commerce-Client",
     },
   ];
 
