@@ -7,23 +7,21 @@ export default function Projects() {
   const projectsData = [
     {
       id: 1,
-      title: "Project 1",
+      title: "love linker matrimony website",
       description: "Description for Project 1.",
-      image:
-        "https://s.tmimgcdn.com/scr/800x500/295200/free-creative-personal-portfolio-html-template_295289-original.jpg",
+      image: "https://i.ibb.co/Y26BPGm/Screenshot-1.png",
       technologies: ["HTML", "CSS", "React"],
-      liveDemoLink: "#",
-      githubLink: "#",
+      liveDemoLink: "https://b8a12.netlify.app/",
+      githubLink: "https://github.com/xdevimran/love-linker-matrimony-Client",
     },
     {
       id: 2,
-      title: "Project 2",
+      title: "shareat food donation website",
       description: "Description for Project 2.",
-      image:
-        "https://freebiesbug.com/wp-content/uploads/2019/04/solid-html-template-580x435.png",
+      image: "https://i.ibb.co/r0srn5y/Screenshot-4.png",
       technologies: ["HTML", "CSS", "React"],
-      liveDemoLink: "#",
-      githubLink: "#",
+      liveDemoLink: "https://b8a11.netlify.app/",
+      githubLink: "https://github.com/xdevimran/Share-Eats-Client",
     },
     {
       id: 3,
@@ -79,6 +77,7 @@ export default function Projects() {
             <div className="flex justify-between">
               <Link
                 href={project.liveDemoLink}
+                target="_blank"
                 className="flex items-center justify-center px-2 py-1 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
               >
                 <FaEye className="w-4 h-4 mr-2" />
@@ -88,6 +87,7 @@ export default function Projects() {
               <Link
                 className="flex items-center justify-center px-2 py-1 border border-transparent text-sm font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"
                 href={project.githubLink}
+                target="_blank"
               >
                 <FaGithub className="w-4 h-4 mr-2" />
                 GitHub

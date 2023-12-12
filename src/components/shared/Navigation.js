@@ -43,8 +43,8 @@ export default function Navigation() {
                 ))}
               </ul>
             </div>
-            <div className="bg-base-200 font-bold text-gray-500 text-xl">
-              Xdev
+            <div className="bg-base-200 font-bold text-gray-500 text-2xl">
+              X
             </div>{" "}
             <div className="bg-base-200 font-bold text-500">Imran</div>
           </div>
