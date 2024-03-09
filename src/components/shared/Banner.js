@@ -14,7 +14,7 @@ export default function Banner() {
           </h1>
           <p className="text-lg text-gray-700 dark:text-gray-300">
             I am a passionate developer with experience in various technologies.
-            Explore my portfolio to know more about my work.
+            Explore my portfolio to know more about my work...
           </p>
           <div className="mt-8">
             <button className="mr-4 bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-md">
